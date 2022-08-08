@@ -4,7 +4,7 @@ const starry = require("./Assets/icons/starry.png");
 
 const jobArray = [
   {
-    img: { meta },
+    img: meta,
     post: "Product Manager--Remote",
     company: "Meta",
     location: "USA, Remote",
@@ -13,7 +13,7 @@ const jobArray = [
     timePosted: "posted 5mins ago",
   },
   {
-    img: { starry },
+    img: starry,
     post: "Data Analytics",
     company: "Loom Inc",
     location: "Australia",
@@ -22,7 +22,7 @@ const jobArray = [
     timePosted: "posted 35mins ago",
   },
   {
-    img: { linkedin },
+    img: linkedin,
     post: "Data Analytics",
     company: "Loom Inc",
     location: "Australia",
@@ -31,7 +31,7 @@ const jobArray = [
     timePosted: "posted 35mins ago",
   },
   {
-    img: { linkedin },
+    img: linkedin,
     post: "Backend Engineer",
     company: "Facebook Inc",
     location: "USA",

@@ -1,30 +1,29 @@
-.carousel-section{
-    margin-top: 2.5em;
-    color: #79828d;
-    font-size: 0.8rem;
-    text-align: center;
-
+.carousel-section {
+  margin-top: 2.5em;
+  color: #79828d;
+  font-size: 0.8rem;
+  text-align: center;
 }
-.logo-carousel{
-    display: flex;
-    justify-content: space-evenly;
-    overflow-x: hidden;
-    transition: transfrom 1s; 
-    transform: translateX(-50%);
-     animation: scroll  16s linear infinite;
- }   
+.logo-carousel {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+  transition: transfrom 1s;
+  transform: translateX(-50%);
+  animation: scroll 16s linear infinite;
+}
 
-.logo-carousel img{
-    margin:0.3em 1.2em;
-    height: 2em;
-    width: 10em;
+.logo-carousel img {
+  margin: 0.3em 1.2em;
+  height: 2em;
+  width: 10em;
 }
 
 @keyframes scroll {
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

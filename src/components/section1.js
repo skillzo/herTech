@@ -43,6 +43,7 @@ function Section1() {
               <option value="Frontend dev">Dev OPS</option>
               <option value="Frontend dev">Data Science</option>
               <option value="Frontend dev">Machine Learning</option>
+            
             </select>
           </form>
         </div>
@@ -53,7 +54,7 @@ function Section1() {
       {jobArray.map((job) => {
           return(
             <Product 
-              img= {job.img}
+              img={job.img}
               post= {job.post}
               company= {job.company}
               location= {job.location}
