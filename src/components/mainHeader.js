@@ -9,7 +9,7 @@ function MainHeader() {
       <div className="heading-image-mobile">
         <img src={hero} alt="LOGO" />
       </div>
-
+      
       <div className="main-article">
         <h1>
           Hire <span>female</span>
@@ -22,8 +22,13 @@ function MainHeader() {
           sit.
         </p>
 
+        <a href="https://hertech.no/apply/">
         <button className="button1 get-started">Get started</button>
+        </a>
+        <a href="https://ng.indeed.com/jobs?q=developer%20&l&vjk=e3cd5e85b381718b">
         <button className="button2 see-listing">See Job Listing</button>
+        </a>
+       
 
         <div className="display-numbers">
           <div className="numbers">

@@ -60,6 +60,7 @@ function Section2(props) {
                   key={podcast.id}
                   title={podcast.title}
                   timeStamp={podcast.timeStamp}
+                  link={podcast.link}
                 />
               </div>
             );

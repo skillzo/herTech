@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 0 0.5rem;
     position: relative;
+    height: auto;
   }
   
   .logo-header{
@@ -30,59 +31,16 @@
 .post-a-job{
   width: 100%;
   border-radius: 0;
-
 }
-
-
-
   .menu-btn {
     width: 3em;
     height: 1.5em;
     margin-top: 1.2em;
     margin-right: 0.5em;
-    position: relative;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: all 0.5s ease-in-out;
   }
-  
-  .menu-btn-burger {
-    width: 80%;
-    height: 0.3em;
-    background: black;
-    border-radius: 15px;
-    transition: all 0.5s ease-in-out;
+  .menu-btn:active{
+    background-color: none;
   }
   
-  .menu-btn-burger::after,
-  .menu-btn-burger::before {
-    position: absolute;
-    content: "";
-    background: black;
-    width: 80%;
-    height: 0.3em;
-    border-radius: 15px;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .menu-btn-burger::after {
-    transform: translateY(-10px);
-  }
-  .menu-btn-burger::before {
-    transform: translateY(10px);
-  }
-  
-  /* Animate the hambuger */
-  .menu-btn.open .menu-btn-burger {
-    transform: translateX(-25px);
-    background: transparent;
-  }
-  
-  .menu-btn.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(1px, 1px);
-  }
-  .menu-btn.open .menu-btn-burger::before {
-    transform: rotate(45deg) translate(1px, 1px);
-  }

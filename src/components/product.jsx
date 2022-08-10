@@ -1,4 +1,5 @@
 import React from "react";
+import { Fragment } from "react";
 
 function Product(props) {
   const map = require("./Assets/icons/map-pin.png");
@@ -6,6 +7,8 @@ function Product(props) {
   const briefcase = require("./Assets/icons/briefcase.png");
 
   return (
+    <Fragment>
+    <a href={props.link}>
     <div className="product-card">
       <div className="product-tag">
         <div className="product-logo">
@@ -47,6 +50,10 @@ function Product(props) {
         <p>{props.timePosted}</p>
       </div>
     </div>
+
+    </a>
+    </Fragment>
+    
   );
 }
 

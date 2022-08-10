@@ -1,16 +1,22 @@
 import React from "react";
 
 function PodcastCard(props) {
-    const podcast = require("./Assets/podcast.png");
+  const podcast = require("./Assets/podcast.png");
   return (
     <div className="podcast-details">
-      <div>
-        <img className="podcast-details-image" src={podcast} alt="logo" />
-      </div>
-      <div className="podcast-details-topic">
+      <a href={props.link}>
         <div>
-          <h3>{props.title}</h3>
+          <img className="podcast-details-image" src={podcast} alt="logo" />
         </div>
+      </a>
+
+      <div className="podcast-details-topic">
+        <a href={props.link}>
+          <div>
+            <h3>{props.title}</h3>
+          </div>
+        </a>
+
         <div>
           <p> {props.note}</p>
         </div>
