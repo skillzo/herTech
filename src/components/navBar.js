@@ -27,7 +27,6 @@ function NavBar() {
           <a href="/"> Find a Mentor</a>
           <a href="/"> Find a Community</a>
           <a href="https://github.com/skillzo">
-            {" "}
             <GitHubIcon />
             My Github
           </a>
