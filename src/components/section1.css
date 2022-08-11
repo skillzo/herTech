@@ -45,7 +45,25 @@
 }
 
 .product-body {
-  margin-top: 1em;
+  position: relative;
+  height: 35rem;
+  overflow-y: scroll;
+}
+.scroll-bar {
+  position: relative;
+  margin-top: 4em;
+}
+
+.scroll-bar::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), white 90%);
+  filter: blur(10px);
+  height: 5em;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .view-jobs {
@@ -67,24 +85,22 @@
   font-weight: 600;
 }
 
-.product-tag {
-  display: flex;
-  line-height: 0.5em;
-}
 .product-logo img {
   height: 3.5em;
   width: 3.5em;
-  margin-left: -0.5em;
+  margin-left: 0.1em;
   margin-right: 0.5em;
-  margin-top:0.4em ;
+  margin-top: 0.4em;
   padding: 0.1rem;
   object-fit: cover;
 }
 .product-details {
-  margin-left: 0.2em;
+  margin-left: -0.8rem;
   font-size: 0.7em;
   display: flex;
   flex-direction: column;
+  line-height: 0.5em;
+  text-align: left;
 }
 .product-time {
   font-size: 0.8em;
@@ -99,6 +115,7 @@
 .product-tag-detail {
   display: flex;
   width: 100%;
+  padding: -1em;
 }
 
 .product-tag-details {

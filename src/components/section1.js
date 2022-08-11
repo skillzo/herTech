@@ -4,7 +4,6 @@ import Product from "./product";
 import jobArray from "./productArray";
 
 function Section1() {
-
   return (
     <div className="section1-body">
       <div className="section1-heading">
@@ -43,32 +42,34 @@ function Section1() {
               <option value="Frontend dev">Dev OPS</option>
               <option value="Frontend dev">Data Science</option>
               <option value="Frontend dev">Machine Learning</option>
-            
             </select>
           </form>
         </div>
       </div>
 
-
-      <div className="product-body">
-      {jobArray.map((job) => {
-          return(
-            <Product 
-              img={job.img}
-              post= {job.post}
-              company= {job.company}
-              location= {job.location}
-              type={job.type}
-              pay= {job.pay}
-              time={job.time}
-              link={job.link}
-              timePosted={job.timePosted}
-            />
-          )
-      })}
-
-        <button className="button1 view-jobs">view all jobs</button>
+      <div className="scroll-bar">
+        <div className="product-body">
+          {jobArray.map((job) => {
+            return (
+              <Product
+                id={job.id}
+                key={job.id}
+                img={job.img}
+                post={job.post}
+                company={job.company}
+                location={job.location}
+                type={job.type}
+                pay={job.pay}
+                time={job.time}
+                link={job.link}
+                timePosted={job.timePosted}
+              />
+            );
+          })}
+        </div>
       </div>
+
+      <button className="button1 view-jobs">view all jobs</button>
     </div>
   );
 }
