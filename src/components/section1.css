@@ -96,16 +96,18 @@
   object-fit: cover;
 }
 .product-details {
+  width: 70%;
   margin-left: -0.8rem;
   font-size: 0.7em;
   padding: 1em;
   display: flex;
   flex-direction: column;
-  line-height: 0.5em;
+  line-height: 0.8em;
   text-align: left;
 }
 .product-time {
-  font-size: 0.8em;
+  width: 30%;
+  font-size: 0.7em;
   margin-top: -3.2em;
 }
 .product-head {
@@ -123,11 +125,11 @@
 
 .product-tag-details {
   display: flex;
-  margin: 0.3em;
+  margin: 0 0.2em;
   font-size: 1em;
 }
 .product-tag-details img {
-  margin-top: 0.9em;
+  margin-top: 0.7em;
   margin-right: 0.1em;
   height: 1.5em;
 }
