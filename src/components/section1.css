@@ -83,6 +83,7 @@
   align-items: center;
   color: gray;
   font-weight: 600;
+  width: 100%;
 }
 
 .product-logo img {
@@ -97,6 +98,7 @@
 .product-details {
   margin-left: -0.8rem;
   font-size: 0.7em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   line-height: 0.5em;
@@ -114,6 +116,7 @@
 
 .product-tag-detail {
   display: flex;
+  font-size: 0.9em;
   width: 100%;
   padding: -1em;
 }
