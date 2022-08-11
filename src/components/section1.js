@@ -62,6 +62,7 @@ function Section1() {
               pay= {job.pay}
               time={job.time}
               link={job.link}
+              timePosted={job.timePosted}
             />
           )
       })}

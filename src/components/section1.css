@@ -69,11 +69,16 @@
 
 .product-tag {
   display: flex;
+  line-height: 0.5em;
 }
 .product-logo img {
-  height: 4em;
-  width: 4em;
+  height: 3.5em;
+  width: 3.5em;
   margin-left: -0.5em;
+  margin-right: 0.5em;
+  margin-top:0.4em ;
+  padding: 0.1rem;
+  object-fit: cover;
 }
 .product-details {
   margin-left: 0.2em;
