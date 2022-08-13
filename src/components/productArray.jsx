@@ -26,7 +26,7 @@ const jobArray = [
   },
   {
     id: "4a",
-    img: "https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1660352992~hmac=161f95695a6b65ddfef87789f99dcda0",
+    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -70,7 +70,7 @@ const jobArray = [
   },
   {
     id: "11a",
-    img: "https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1660352992~hmac=161f95695a6b65ddfef87789f99dcda0",
+    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -114,7 +114,7 @@ const jobArray = [
   },
   {
     id: "30a",
-    img: "https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1660352992~hmac=161f95695a6b65ddfef87789f99dcda0",
+    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -158,7 +158,7 @@ const jobArray = [
   },
   {
     id: "1x",
-    img: "https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1660352992~hmac=161f95695a6b65ddfef87789f99dcda0",
+    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",

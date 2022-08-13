@@ -133,9 +133,9 @@
 .product-tag-details {
   display: flex;
   align-items: center;
-  margin-right: 1em;
-  font-size: 1em;
+  margin-right: 0.8em;
+  font-size: 0.95em;
 }
 .product-tag-details img {
-  margin-right: 0.1em;
+  margin-right: 0.3em;
 }
