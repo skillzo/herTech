@@ -1,8 +1,9 @@
+const linkedIn = require("../../components/Assets/brand-icons/linkedin.png");
 const ShareArray = [
   {
     id: "1",
     social: "LinkedIn",
-    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
+    img: linkedIn,
   },
   {
     id: "2",

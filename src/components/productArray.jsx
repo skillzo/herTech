@@ -1,5 +1,7 @@
 const meta = require("./Assets/brand-icons/meta.png");
 const starry = require("./Assets/icons/starry.png");
+const linkedIn = require("../components/Assets/brand-icons/linkedin.png");
+
 
 const jobArray = [
   {
@@ -26,7 +28,7 @@ const jobArray = [
   },
   {
     id: "4a",
-    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
+    img: linkedIn,
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -70,7 +72,7 @@ const jobArray = [
   },
   {
     id: "11a",
-    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
+    img: linkedIn,
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -114,7 +116,7 @@ const jobArray = [
   },
   {
     id: "30a",
-    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
+    img:  linkedIn,
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",
@@ -158,7 +160,7 @@ const jobArray = [
   },
   {
     id: "1x",
-    img: "https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png",
+    img: linkedIn,
     post: "Data Analytics",
     company: "LinkedIn Corporation",
     location: "Australia",

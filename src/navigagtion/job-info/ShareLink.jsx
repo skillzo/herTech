@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 function ShareLink(props) {
+  
   return (
     <Fragment>
       <div className="share-details">

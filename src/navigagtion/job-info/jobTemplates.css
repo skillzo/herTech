@@ -1,77 +1,77 @@
-.card {
-  background-color: white;
-  padding: 2em;
-  padding-bottom: 3em;
-  border-radius: 10px;
-  margin-top: 3em;
+
+.card{
+    background-color: white;
+    padding: 2em;
+    padding-bottom: 3em;
+    border-radius: 10px;
+    margin-top: 3em;
 }
-.jobTemplate {
-  margin-top: 0.5em;
-  border-top: 2px solid #ccc;
+.jobTemplate{
+    margin-top: 0.5em;
+    border-top: 2px solid #ccc;
 }
 
-.jobTemplate h1,
-h3 {
-  color: rgba(0, 0, 0, 0.8);
+.jobTemplate h1,h3 {
+    color: rgba(0, 0, 0, 0.8);
 }
-.JobTemplate-image img {
-  object-fit: cover;
-  height: 300px;
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 2em;
+.JobTemplate-image img{
+    object-fit: cover; 
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2em;
 }
-.JobTemplate-logo p {
-  font-size: 1.2em;
-  margin-top: 1em;
-}
-
-.JobTemplate-headingDetails a {
-  color: blue;
-  text-decoration: underline;
-}
-.jobTemplate-button {
-  margin-top: 2em;
-  margin-left: 1.5em;
-}
-.save-job-for-later {
-  background-color: white;
-  margin-left: 1em;
+.JobTemplate-logo p{
+    font-size: 1.2em;
+    margin-top: 1em;
 }
 
-.share-details {
-  display: flex;
-  padding: 0 1em;
-  align-items: center;
-  border: 1px solid #cccccc93;
-  border-radius: 10px;
-  margin-top: 1em;
+.JobTemplate-headingDetails a{
+    color: blue;
+    text-decoration: underline;
 }
-.share-details h4 {
-  margin-left: 2em;
+.jobTemplate-button{
+    margin-top: 2em;
+    margin-left: 1.5em;
 }
-
-.share-details-image img {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
+.save-job-for-later{
+    background-color: white;
+    margin-left: 1em;
 }
 
-.Related-jobs h3 {
-  margin-top: 4em;
-  margin-bottom: -2.5em;
+.share-details{
+    display: flex;
+    padding: 0 1em;
+    align-items: center;
+    border: 1px solid #cccccc93;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+.share-details h4{
+    margin-left: 2em;
 }
 
-.JobTemplate-tag-detail {
-  display: flex;
-  margin-top: -1em;
+.share-details-image img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
 }
-.JobTemplate-tag-details {
-  display: flex;
-  font-size: 0.8em;
-  margin-right: 1em;
+
+.Related-jobs h3{
+margin-top: 4em;
+margin-bottom: -2.5em;
 }
-.JobTemplate-tag-details img {
-  margin-right: 0.3em;
+
+.JobTemplate-tag-detail{
+    display: flex;
+    margin-top:-1em ;
+}
+.JobTemplate-tag-details{
+    display: flex;
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+.JobTemplate-tag-details img{
+    margin-right: 0.3em;
 }
