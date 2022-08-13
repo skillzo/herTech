@@ -1,9 +1,10 @@
 import React from "react";
 import "./section2.css";
 import ProductCard from "./productCard";
-import sectionArray from "./section2Array";
+import sectionArray from "./productCardArray";
 import PodcastCard from "./podcastCard";
 import podcastArray from "./podcastArray";
+import { Link } from "react-router-dom";
 
 function Section2(props) {
   return (
@@ -16,7 +17,7 @@ function Section2(props) {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className="see-all-button">
-            <button className="button3  see-all">See all</button>
+          <Link to="/community" ><button className="button3  see-all">See all</button></Link>
           </div>
         </div>
 
@@ -27,6 +28,7 @@ function Section2(props) {
             return (
               <div>
                 <ProductCard
+                  id={card.id}
                   key={card.id}
                   title={card.title}
                   numbers={card.numbers}
@@ -48,7 +50,7 @@ function Section2(props) {
             </p>
           </div>
           <div>
-            <button className="button3 see-all">See all</button>
+          <button className="button3 see-all">See all</button>
           </div>
         </div>
 
@@ -57,6 +59,7 @@ function Section2(props) {
             return (
               <div>
                 <PodcastCard
+                  id={podcast.id}
                   key={podcast.id}
                   title={podcast.title}
                   timeStamp={podcast.timeStamp}

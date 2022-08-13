@@ -1,5 +1,6 @@
 import React from "react";
 import "./mainHeader.css";
+import { Link } from "react-router-dom";
 
 function MainHeader() {
   const hero = require("./Assets/hero.png");
@@ -9,7 +10,7 @@ function MainHeader() {
       <div className="heading-image-mobile">
         <img src={hero} alt="LOGO" />
       </div>
-      
+
       <div className="main-article">
         <h1>
           Hire <span>female</span>
@@ -23,12 +24,12 @@ function MainHeader() {
         </p>
 
         <a href="https://hertech.no/apply/">
-        <button className="button1 get-started">Get started</button>
+          <button className="button1 get-started">Get started</button>
         </a>
-        <a href="https://ng.indeed.com/jobs?q=developer%20&l&vjk=e3cd5e85b381718b">
-        <button className="button2 see-listing">See Job Listing</button>
-        </a>
-       
+        <Link to="/jobBoard">
+          {" "}
+          <button className="button2 see-listing">See Job Listing</button>
+        </Link>
 
         <div className="display-numbers">
           <div className="numbers">

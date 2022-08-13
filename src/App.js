@@ -1,31 +1,35 @@
-import React from "react";
+import React, { Fragment } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import MainHeader from "./components/mainHeader";
+import Home from "./navigagtion/Home/Home";
+import JobBoard from "./navigagtion/job-boards/JobBoard";
+import Meta from "./navigagtion/job-info/Meta";
+import Loom from "./navigagtion/job-info/Loom";
+import Facebook from "./navigagtion/job-info/Facebook";
+import Linkedin from "./navigagtion/job-info/LinkedIn";
 import NavBar from "./components/navBar";
-import Carousel from "./components/carousel";
-import Section1 from "./components/section1";
-import Section2 from "./components/section2";
-import Newsletter from "./components/Newsletter";
-import FooterNav from "./components/footerNav";
+import Footer from "./components/footer/Footer";
+import Community from "./navigagtion/Community/Community";
 
 function App() {
   return (
-    <div className="container">
-      <NavBar />
-      <MainHeader />
-      <Carousel />
-
-      <div className="body-container">
-        <Section1 />
-        <Section2
-         />
+    <Fragment>
+      <div className="container">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/jobBoard" element={<JobBoard />} />
+          <Route path="/meta" element={<Meta />} />
+          <Route path="/loom" element={<Loom />} />
+          <Route path="/linkedIn" element={<Linkedin />} />
+          <Route path="/facebook" element={<Facebook />} />
+          <Route path="/community" element={<Community />} />
+        </Routes>
+        <div className=" section-footer">
+          <Footer />
+        </div>
       </div>
-
-      <div className=" section-footer">
-        <Newsletter />
-        <FooterNav />
-      </div>
-    </div>
+    </Fragment>
   );
 }
 

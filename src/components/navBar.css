@@ -1,6 +1,7 @@
 .heading-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 0.5rem;
   position: relative;
   height: auto;
@@ -33,13 +34,13 @@
   border-radius: 0;
 }
 .menu-btn {
-  width: 3em;
+  width: 2em;
   height: 1.5em;
-  margin-top: 1.2em;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 .menu-btn:active {
   background-color: none;
+  background: transparent;
 }

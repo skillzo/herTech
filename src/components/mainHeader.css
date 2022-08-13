@@ -18,6 +18,10 @@
   font-weight: 600;
   line-height: 0.8em;
   width: 33%;
+ 
+}
+.numbers h3{
+   color: rgba(255, 255, 255, 0.76);
 }
 .numbers p {
   font-weight: 300;

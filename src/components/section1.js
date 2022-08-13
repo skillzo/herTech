@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./section1.css";
-import Product from "./product";
-import jobArray from "./productArray";
-
+import SearchSession from "./searchSession";
+import ScrolllBar from "./scrolllBar";
 function Section1() {
   return (
     <div className="section1-body">
@@ -15,61 +15,12 @@ function Section1() {
         </p>
       </div>
       {/* /////////////////////////L. */}
-      <div className="section1-search">
-        <form>
-          <input
-            type="search"
-            placeholder="Search.."
-            name="Search"
-            id="search"
-          />
-        </form>
+      <SearchSession />
+      <ScrolllBar />
 
-        <div className="location-jobs">
-          <form action="/">
-            <input
-              type="location"
-              name="location"
-              placeholder="Location"
-              id="country"
-            />
-          </form>
-          <form action="/">
-            <label name="job-type" placeholder="Job Type"></label>
-            <select name="job-type" placeholder="Job Type" id="jobs">
-              <option value="Frontend dev">Job Type</option>
-              <option value="Frontend dev">Backend Dev</option>
-              <option value="Frontend dev">Dev OPS</option>
-              <option value="Frontend dev">Data Science</option>
-              <option value="Frontend dev">Machine Learning</option>
-            </select>
-          </form>
-        </div>
-      </div>
-
-      <div className="scroll-bar">
-        <div className="product-body">
-          {jobArray.map((job) => {
-            return (
-              <Product
-                id={job.id}
-                key={job.id}
-                img={job.img}
-                post={job.post}
-                company={job.company}
-                location={job.location}
-                type={job.type}
-                pay={job.pay}
-                time={job.time}
-                link={job.link}
-                timePosted={job.timePosted}
-              />
-            );
-          })}
-        </div>
-      </div>
-
-      <button className="button1 view-jobs">view all jobs</button>
+      <Link to="/JobBoard">
+        <button className="button1 view-jobs">view all jobs</button>
+      </Link>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./navBar.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -17,28 +18,29 @@ function NavBar() {
   return (
     <div className="heading-container">
       <div className="logo-header">
-        <h1>
-          Her<span>Tech</span>
-        </h1>
+        <Link to="/">
+          <h1>
+            Her<span>Tech</span>
+          </h1>
+        </Link>
       </div>
       <div style={{ display: isClicked ? "none" : "block" }} className="navbar">
         <nav>
-          <a href="/"> Job Listing</a>
-          <a href="/"> Find a Mentor</a>
-          <a href="/"> Find a Community</a>
-          <a href="https://github.com/skillzo">
+           <Link to="/jobBoard">Job Listing </Link> 
+           <Link to="/community">Find a Mentor</Link> 
+           <Link to="/community"> Find a Community </Link> 
+           
+            <a href="https://github.com/skillzo">
             <GitHubIcon />
             My Github
           </a>
+           
           <a href="/"> more</a>
         </nav>
         <button className="button1 post-a-job">Post a Job </button>
       </div>
       <div onClick={clickHandler} className="menu-btn">
-        <div className="menu-btn-burger">
-          {" "}
-          {isClicked ? <MenuIcon /> : <CloseIcon />}{" "}
-        </div>
+        {isClicked ? <MenuIcon /> : <CloseIcon />}
       </div>
     </div>
   );

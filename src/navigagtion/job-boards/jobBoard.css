@@ -1,0 +1,21 @@
+.jobBoard {
+  margin-top: 0.5em;
+  border-top: 2px solid #ccc;
+}
+
+.jobBoard h1 {
+  font-size: 2em;
+}
+
+.jobBoard-scrollbar {
+  padding-top: 1em;
+  margin-top: -0.2em;
+}
+.jobBoard Button {
+  display: flex;
+  align-items: center;
+}
+
+.jobBoard-noScroll {
+  overflow-y: visible;
+}

@@ -57,46 +57,44 @@
   margin-top: -1em;
 }
 
-.product-management-details-image{
+.product-management-details-image {
   height: 3em;
   width: 7em;
 }
 
-
 /*  */
 
-.podcast-heading{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.podcast-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.podcast-heading-details{
-    width: 65%;
+.podcast-heading-details {
+  width: 65%;
 }
-.podcast-heading-details p{
-    margin-top: -1em;
+.podcast-heading-details p {
+  margin-top: -1em;
 }
-.podcast-details{
-    display: flex;
-    align-items: center;
+.podcast-details {
+  display: flex;
+  align-items: center;
 }
-.podcast-details-image{
-    width: 6em;
-    height: 6em;
+.podcast-details-image {
+  width: 6em;
+  height: 6em;
 }
-.podcast-details-topic{
-    width: 100%;
-    margin-left: 1.1em;
-    line-height: 0.7em;
-    font-size: 0.9em;
-    margin-bottom: 1.5em;
+.podcast-details-topic {
+  width: 100%;
+  margin-left: 1.1em;
+  line-height: 0.7em;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
 }
-.podcast-details-topic p{
-    font-size: 0.8em;
-    width: 90%;
+.podcast-details-topic p {
+  font-size: 0.8em;
+  width: 90%;
 }
-.time-stamp{
-    padding: 0.3em 1.5em;
-    margin-left: 1em;
+.time-stamp {
+  padding: 0.3em 1.5em;
+  margin-left: 1em;
 }
-

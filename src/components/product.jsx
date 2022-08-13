@@ -1,5 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 function Product(props) {
   const map = require("./Assets/icons/map-pin.png");
@@ -8,7 +9,7 @@ function Product(props) {
 
   return (
     <Fragment>
-      <a href={props.link}>
+      <Link to={props.link}>
         <div className="product-card">
           <div className="product-logo">
             <img src={props.img} alt="" />
@@ -22,25 +23,19 @@ function Product(props) {
                 <div>
                   <img src={map} alt="" />
                 </div>
-                <div>
-                  <p>{props.location} </p>
-                </div>
+                <div>{props.location}</div>
               </div>
               <div className="product-tag-details">
                 <div>
                   <img src={briefcase} alt="" />
                 </div>
-                <div>
-                  <p>{props.type}</p>
-                </div>
+                <div>{props.type}</div>
               </div>
               <div className="product-tag-details">
                 <div>
                   <img src={dollar} alt="" />
                 </div>
-                <div>
-                  <p> {props.pay}</p>
-                </div>
+                <div>{props.pay}</div>
               </div>
             </div>
           </div>
@@ -49,7 +44,7 @@ function Product(props) {
             <p>{props.timePosted}</p>
           </div>
         </div>
-      </a>
+      </Link>
     </Fragment>
   );
 }

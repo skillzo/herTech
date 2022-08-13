@@ -1,24 +1,24 @@
 const sectionArray = [
     {
-        id: 1,
+        id: "1aa",
         title: "Product Management",
         numbers: "+107",
 
     },
     {
-        id: 2,
+        id: "1ab",
         title: "Product Design",
         numbers: "+201",
 
     },
     {
-        id: 3,
+        id: "1ac",
         title: "Web development",
         numbers: "+21",
 
     },
     {
-        id: 4,
+        id: "1ad",
         title: "Data Science",
         numbers: "+5",
 
