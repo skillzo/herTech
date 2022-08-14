@@ -3,9 +3,7 @@ import { Fragment } from "react";
 import "./community.css";
 import Profile from "./Profile";
 import CommunityArray from "./CommunityArray";
-import Group from "./Group";
-import GroupArray from "./groupsArray";
-
+import JoinGroup from "./JoinGroup";
 function Community(props) {
   return (
     <Fragment>
@@ -31,21 +29,9 @@ function Community(props) {
             );
           })}
           </div>
-
-          <div className="group-community">
-            <h1>HerTech Community for Women </h1>
-            {GroupArray.map((group) => {
-              return (
-                <Group
-                  id={group.id}
-                  key={group.id}
-                  post={group.post}
-                  numbers={group.numbers}
-                  logo={group.logo}
-                />
-              );
-            })}
-          </div>
+          
+          <JoinGroup />
+          
         </div>
       </div>
     </Fragment>

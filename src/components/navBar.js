@@ -26,15 +26,15 @@ function NavBar() {
       </div>
       <div style={{ display: isClicked ? "none" : "block" }} className="navbar">
         <nav>
-           <Link to="/jobBoard">Job Listing </Link> 
-           <Link to="/community">Find a Mentor</Link> 
-           <Link to="/community"> Find a Community </Link> 
-           
-            <a href="https://github.com/skillzo">
+          <Link to="/jobBoard">Job Listing </Link>
+          <Link to="/community">Find a Mentor</Link>
+          <Link to="/joingroup"> Find a Community </Link>
+
+          <a href="https://github.com/skillzo">
             <GitHubIcon />
             My Github
           </a>
-           
+
           <a href="/"> more</a>
         </nav>
         <button className="button1 post-a-job">Post a Job </button>
