@@ -17,7 +17,7 @@ function Section2(props) {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className="see-all-button">
-          <Link to="/community" ><button className="button3  see-all">See all</button></Link>
+          <Link to="/joingroup" ><button className="button3  see-all">See all</button></Link>
           </div>
         </div>
 

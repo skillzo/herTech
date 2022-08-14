@@ -10,6 +10,7 @@ import Linkedin from "./navigagtion/job-info/LinkedIn";
 import NavBar from "./components/navBar";
 import Footer from "./components/footer/Footer";
 import Community from "./navigagtion/Community/Community";
+import JoinGroup from "./navigagtion/Community/JoinGroup";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/linkedIn" element={<Linkedin />} />
           <Route path="/facebook" element={<Facebook />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/joingroup" element={<JoinGroup />} />
         </Routes>
         <div className=" section-footer">
           <Footer />
